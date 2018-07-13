@@ -1,0 +1,29 @@
+{
+  "name": "tutostory",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "3.4.8",
+    "@storybook/addon-links": "3.4.8",
+    "@storybook/addon-notes": "3.4.8",
+    "@storybook/addon-storyshots": "^3.4.8",
+    "@storybook/addons": "3.4.8",
+    "@storybook/react": "3.4.8",
+    "babel-core": "6.26.3",
+    "prop-types": "15.6.2",
+    "react-test-renderer": "^16.4.1",
+    "storybook-addon-props": "3.0.4"
+  }
+}
